@@ -10,7 +10,7 @@ cd x264
 make -j4  # 코어 수를 적어주시면 됩니다.
 sudo make install
 
-sudo apt-get install -y libav-tools
+#sudo apt-get install -y libav-tools
 cd /home/pi
 git clone https://github.com/FFmpeg/FFmpeg.git
 cd FFmpeg
